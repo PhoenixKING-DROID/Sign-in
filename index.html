@@ -1,90 +1,85 @@
 <DOCTYPE html>
-  <img src="https://img.icons8.com/?size=128&id=119079&format=png">
-    <body>  
-      <style>
-
-  body{ 
+    <img src="https://img.icons8.com/?size=128&id=119079&format=png">
+      <body>  
+ <style>
+    body{ 
+    background-image: linear-gradient(to left, white, cyan);
+    display:block;
+    margin: 30px;
+    padding-top: 100px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-size: cover;
+  }
+  
+  body {
+    font-family:fantasy;
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  .bot{
+    text-align: center;
+    border-radius: 8px;
+    border-style:double;
+    padding: 4px;
     
-  display:block;
-  margin: 30px;
-  padding-top: 100px;
-  font-size: 20px;
-  border-radius: 20px;
-  background-size: cover;
-}
-
-body {
-  font-family: Arial, sans-serrif;
-  line-height: 1.6;
-  text-align: center;
-}
-
-.bot{
-  text-align: center;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  padding: 5px;
+  }
   
-}
-
-
-fieldset{
-  border-radius: 5px;
-  padding: 50px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  display: block;
-  margin: 0 auto;
   
-}
-  
-.bio{
-  border-radius: 10px;
-}
-
-.img{
-  display: block;
-  margin: 0 auto;
-  position: top;
-}
-
-      </style>
-      <fieldset>
-       <form action="https://api.web3forms.com/submit" method="post">
-
-    <!-- Replace with your Access Key -->
-    <input type="hidden" name="apikey" value="aca2c319-9fbc-47c0-bdf9-0bace729fb19">
-
-    <!-- Form Inputs. Each input must have a name="" attribute -->
-        <label>Username</label><br>
-    <input type="text" name="name" class="bot" placeholder="E.g Brandon" required><br>
-         
-         
-        <label>Email</label><br>
-    <input type="email" name="email" class="bot" placeholder="E.g example@domain.com" required><br>
-
-         
-        <label>Bio(optional)</label><br>
-          <textarea name="message" placeholder="All about you" required></textarea><br><br>
-
-    <!-- Honeypot Spam Protection -->
-    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-
-    <!-- Custom Confirmation / Success Page -->
-    <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
-
-    <button type="submit" class="bot" value="https://tixihix.github.io/hackathon/" required>Submit Form</button><br>
-    </form>
-    <button class="bio" onclick="window.location.href='https://tixihix.github.io/hackathon/';" value="HEALTHY HEROS ON TECH" required>Sign in existing account</button>
-      </fieldset>
-
-
-
+  fieldset{
+    border-radius: 5px;
+    padding: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, white, cyan);
     
-  </body>
-
-
+  }
+    
+  .bio{
+    border-radius: 10px;
+  }
+  
+  .img{
+    display: block;
+    margin: 0 auto;
+    position: top;
+  }
+  
+ </style>
+        <fieldset>
+         <form action="https://api.web3forms.com/submit" method="post">
+  
+      <!-- Replace with your Access Key -->
+      <input type="hidden" name="apikey" value="aca2c319-9fbc-47c0-bdf9-0bace729fb19">
+  
+      <!-- Form Inputs. Each input must have a name="" attribute -->
+          <label>Username</label><br>
+      <input type="text" name="name" class="bot" placeholder="E.g Brandon" required><br>
+           
+           
+          <label>Email</label><br>
+      <input type="email" name="email" class="bot" placeholder="E.g example@domain.com" required><br>
+  
+           
+          <label>Bio(optional)</label><br>
+            <textarea name="message" placeholder="All about you" required></textarea><br><br>
+  
+      <!-- Honeypot Spam Protection -->
+      <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+  
+      <!-- Custom Confirmation / Success Page -->
+      <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+  
+      <button type="submit" class="bot" value="https://tixihix.github.io/hackathon/" required>Login</button><br>
+      </form>
+        </fieldset>
+  
+  
+  
+      
+    </body>
