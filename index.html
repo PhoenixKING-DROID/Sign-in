@@ -2,8 +2,7 @@
     <img src="https://img.icons8.com/?size=128&id=119079&format=png">
       <body>  
  <style>
-    body{ 
-    background-image: linear-gradient(to left, white, cyan);
+    body{
     display:block;
     margin: 30px;
     padding-top: 100px;
@@ -13,33 +12,19 @@
   }
   
   body {
-    font-family:fantasy;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
     text-align: center;
   }
   
   .bot{
     text-align: center;
-    border-radius: 8px;
+    border: 1px solid black;
     border-style:double;
     padding: 4px;
-    
+    margin-bottom: 40px;    
   }
   
-  
-  fieldset{
-    border-radius: 5px;
-    padding: 50px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    display: block;
-    margin: 0 auto;
-    background-image: linear-gradient(to right, white, cyan);
-    
-  }
-    
   .bio{
     border-radius: 10px;
   }
@@ -48,38 +33,40 @@
     display: block;
     margin: 0 auto;
     position: top;
+    color: grayscale(100%);
+  }
+  .but{
+    border: 1px solid black;
+    border-radius: 10px;
+    border-style: double;
+    padding: 10px;
+    background-color: white;
+    color: black;
   }
   
  </style>
-        <fieldset>
-         <form action="https://api.web3forms.com/submit" method="post">
+    <form action="https://api.web3forms.com/submit" method="post">
   
-      <!-- Replace with your Access Key -->
       <input type="hidden" name="apikey" value="aca2c319-9fbc-47c0-bdf9-0bace729fb19">
-  
-      <!-- Form Inputs. Each input must have a name="" attribute -->
-          <label>Username</label><br>
-      <input type="text" name="name" class="bot" placeholder="E.g Brandon" required><br>
-           
-           
-          <label>Email</label><br>
-      <input type="email" name="email" class="bot" placeholder="E.g example@domain.com" required><br>
+
+
+        <label>Email</label><br>
+        <input type="email" name="email" class="bot" placeholder="E.g example@domain.com" required><br>
   
            
-          <label>Bio(optional)</label><br>
-            <textarea name="message" placeholder="All about you" required></textarea><br><br>
-  
+        <label>Tell us you're questions</label><br>
+        </span>
+        <textarea name="message" required></textarea><br><br>
+        
       <!-- Honeypot Spam Protection -->
       <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
   
-      <!-- Custom Confirmation / Success Page -->
-      <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
   
-      <button type="submit" class="bot" value="https://tixihix.github.io/hackathon/" required>Login</button><br>
-      </form>
-        </fieldset>
+      <button type="submit" class="but" value="https://tixihix.github.io/hackathon/" required>Login</button><br>
+    </form>
+        
   
   
   
       
-    </body>
+</body>
